@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>e89da562-72df-4f3f-a866-1db3ba5df516</Guid>
+    <Name>WotcRemoveTheChosen</Name>
+    <Description>Remove the Chosen from the game.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WotcRemoveTheChosen</AssemblyName>
+    <RootNamespace>WotcRemoveTheChosen</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\WotcRemoveTheChosen\" />
+    <Folder Include="Src\WotcRemoveTheChosen\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\WotcRemoveTheChosen\Classes\X2DownloadableContentInfo_WotcRemoveTheChosen.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
