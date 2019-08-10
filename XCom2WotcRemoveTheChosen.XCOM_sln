@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # XCOM ModBuddy Solution File, Format Version 11.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "WotcRemoveTheChosen", "WotcRemoveTheChosen\WotcRemoveTheChosen.x2proj", "{62992649-0430-479C-BB25-4B37DFD947DB}"
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "XCom2WotCRemoveTheChosen", "XCom2WotCRemoveTheChosen\XCom2WotCRemoveTheChosen.x2proj", "{62992649-0430-479C-BB25-4B37DFD947DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
